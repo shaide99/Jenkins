@@ -9,4 +9,5 @@ resource "aws_instance" "amazon_linx" {
   key_name               = "Mykey"
   tags = {
     name = "aws_instance"
-
+  }
+}
